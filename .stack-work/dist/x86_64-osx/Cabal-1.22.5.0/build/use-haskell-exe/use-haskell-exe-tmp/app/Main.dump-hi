@@ -1,0 +1,218 @@
+
+==================== FINAL INTERFACE ====================
+2016-12-09 20:47:06.690665 UTC
+
+interface main@main:Main 7103
+  interface hash: 930398534ae53c667463aaa296e8e40b
+  ABI hash: 46b3ce200c2e3162476c8402800a60e8
+  export-list hash: 442cf1a067d9267afc9fbba7005e0b1c
+  orphan hash: 693e9af84d3dfcc71e640e005bdc5e2e
+  flag hash: cc5d6f08fb00b0e848a06df38507791d
+  sig of: Nothing
+  used TH splices: False
+  where
+exports:
+  Main.main
+module dependencies:
+package dependencies: MonadRandom-0.4.2.3@Monad_I7tEJH7vOtsKQS7CpG48fz
+                      aeson-0.11.2.0@aeson_2zFfVvgQrX6CdMgjlHENYG
+                      appar-0.1.4@appar_0ov5bpGH3STIB4U7WU8MFi
+                      array-0.5.1.0@array_67iodizgJQIIxYVTp4emlA
+                      async-2.1.0@async_KuqnF1GrhHK5nNp6Zzm3jy
+                      attoparsec-0.13.0.2@attop_2OfdLYhETMv8S2kp3UkC68
+                      auto-update-0.1.4@autou_Fnqbq5K41573zil7J3s62I base-4.8.2.0
+                      base16-bytestring-0.1.1.6@base1_LuxBhYgEONMHJnKTOPc7Oy
+                      base64-bytestring-1.0.0.1@base6_AkCk8zInckjJsyQ4AIFHPN
+                      base-compat-0.9.1@basec_3Zy8UsyHmBEEwbReR8x1KT
+                      binary-0.7.5.0@binar_3uXFWMoAGBg0xKP9MHKRwi
+                      blaze-html-0.8.1.1@blaze_1fCoF4onMJE2jDLBViwynk
+                      blaze-builder-0.4.0.2@blaze_5LQurmvTy7l9rPlWgPlNE4
+                      blaze-markup-0.7.0.3@blaze_JGtgJgx8yqB3DdKuU3sbgD
+                      bson-0.3.2.2@bson_42N0i6B0YXjKVugG9lg9RI
+                      bson-generic-0.0.8@bsong_3a3Zaea0QaXDPqLlnci9WI
+                      byteable-0.1.1@bytea_38yjJsjDRm9KusCn8Yo4aB
+                      byteorder-1.0.4@byteo_6yQGE3rJo3bBqr3CFoBQ27
+                      bytestring-0.10.6.0@bytes_6VWy06pWzJq9evDvK2d4w6
+                      case-insensitive-1.2.0.6@casei_8qjMvUrztuXBu8a9xaKGpv
+                      cipher-aes-0.2.11@ciphe_LCbQiUgBdfG1swKGFESvIB
+                      containers-0.5.6.2@conta_2C3ZI8RgPO2LBMidXKTvIU
+                      cookie-0.4.2.1@cooki_K5cXuTHwzBb4lSJpuZqTwh
+                      cprng-aes-0.6.1@cprng_5f9sEWw2KyDFuK7YSXbmLg
+                      cryptohash-0.11.9@crypt_0sr828POwQIECBy4l12T91
+                      crypto-cipher-types-0.0.9@crypt_5pOb6r7GjTIIAX2STwtBXT
+                      cryptonite-0.15@crypt_F8W9M5THBW4FIZAr1UOHUh
+                      crypto-random-0.0.9@crypt_Hp2mrapNVMVGQkdcUyO52d
+                      data-binary-ieee754-0.4.4@datab_LscVfvSYUChE22ECWWHc4v
+                      data-default-class-0.0.1@datad_K91y8NcZUJI9yaBI61rgdD
+                      deepseq-1.4.1.1@deeps_6vMKxt5sPFR0XsbRWvvq59
+                      directory-1.2.2.0@direc_0hFG6ZxK1nk4zsyOqbNHfm
+                      dlist-0.7.1.2@dlist_AO7XAasbAeyL0XLKeq1Aui
+                      easy-file-0.2.1@easyf_IjQ6MMskJyDEpOwcfCdF0G
+                      exceptions-0.8.2.1@excep_6lgwjdgwblY7rzh5s6SLd8
+                      fail-4.9.0.0@fail_2xB1AvdW34sDm9N3JOe33G
+                      fast-logger-2.4.6@fastl_KNzHEmV4CAC3sAdPGCavvx
+                      file-embed-0.0.10@filee_BNyHeBYneTRAp0kIbc1T1P
+                      filepath-1.4.0.0@filep_Ey7a1in9roBAE8bUFJ5R9m ghc-prim-0.4.0.0
+                      hashable-1.2.4.0@hasha_EalUWgp8NarBYWPbvYAD8I
+                      hashtables-1.2.1.0@hasht_5Vb6phNxUZg6pFkCi63Q8S
+                      hslogger-1.2.10@hslog_7S2R9oN6Jiq9ujVQkRIVGN
+                      http2-1.6.1@http2_2nSEa9VvD6m8evIu1BeoFl
+                      http-api-data-0.3.2@httpa_LOrkt5AK2M71W85ymF2ZZf
+                      http-client-0.4.31@httpc_4uXZnEpdNPl3RoPM6EakgM
+                      http-date-0.0.6.1@httpd_CoX3D3DRXeFLFjrVKUR3Hm
+                      http-media-0.6.3@httpm_3g9mqGckpf20fD6vCHR6Aw
+                      http-types-0.9.1@httpt_8knqKGsck6rCwAgIqjaOSd integer-gmp-1.0.0.0
+                      iproute-1.7.0@iprou_51qGM7UdLbAGjwdVd1zynT
+                      lifted-base-0.2.3.6@lifte_DoOvgrTvmEtENHs0ypaZTR
+                      memory-0.13@memor_AtLbf837cOS9kNhIuRhbe8
+                      mime-types-0.1.0.7@mimet_EkzgPOw2pX43Kgu0zxtOKD
+                      mmorph-1.0.6@mmorp_42KUkOfzC6q3qCtAMiSHam
+                      monad-control-1.0.1.0@monad_7Tqv3C2ASZP4J7swGaIkqS
+                      mongoDB-2.0.10@mongo_EARhIiqyHKK62J4lNzTFzz
+                      mtl-2.2.1@mtl_Aue4leSeVkpKLsfHIV51E8
+                      network-uri-2.6.1.0@netwo_8hCRgBDYvZA6nRJCSPBXws
+                      network-2.6.2.1@netwo_A6pE0dLgMEk2GtUa1JtTJQ
+                      nonce-1.0.2@nonce_LVZ3LgyElrS1925qK5wiEt
+                      old-locale-1.0.0.7@oldlo_7h2Gx6mVPJ5Gheca8j9Mpe
+                      old-time-1.1.0.3@oldti_JVjJvknZJ0JKghfag2Jw2L
+                      parsec-3.1.11@parse_AtBt9uDOS2NCyWnucTHV3y
+                      pretty-1.1.2.0@prett_JItwetRppk1H5Uq3xbjDGC
+                      primitive-0.6.1.0@primi_EphY2c7CCxSCBKjAN0YTR3
+                      psqueues-0.2.2.1@psque_AvLcbKUIB1yCm8wZoS0YR7
+                      random-1.1@rando_9Kgekc9yEaLHLNUuw6paWL
+                      random-shuffle-0.0.4@rando_9kOz9tEn1526ShtWz8x59X
+                      resourcet-1.1.7.4@resou_HqDlSpmGRphG5PMbskXVNU
+                      safe-0.3.9@safe_Eus5OohxO2XHvdWxKAmhFS
+                      scientific-0.3.4.8@scien_Elq5IFN7LP733k4M8RTP7H
+                      securemem-0.1.9@secur_G6dZ7LcBMCWL87x7vQA9FR
+                      semigroups-0.18.1@semig_LaeT7FLzCl4KIQUoVrPYl1
+                      servant-server-0.9.1.1@serva_2bi8FIfekeM5vQJeulmuKw
+                      servant-0.9.1.1@serva_304st92ckQoBykSibxECmC
+                      servant-client-0.9.1.1@serva_4JaKgVbbpBJH07tBoDembQ
+                      simple-sendfile-0.2.25@simpl_0nIJen9GQpYKeQtRTgNteJ
+                      stm-2.4.4.1@stm_EyxFXFfnfY05IrjGaqCxeD
+                      streaming-commons-0.1.15.5@strea_EmmPiWycOZRDBDTh9xaABj
+                      string-conversions-0.4@strin_JslXiDngwin4HR9nIe3KgC
+                      tagged-0.8.4@tagge_LPeicl3HxVfGUMMwMEsAE6 template-haskell-2.10.0.0
+                      text-1.2.2.1@text_HmqVQnZSpjaC156ABqPhne
+                      time-1.5.0.1@time_FTheb6LSxyX1UABIbBXRfn
+                      time-locale-compat-0.1.1.3@timel_JqBSqBpv4WnGcW1nkQYzOp
+                      transformers-base-0.4.4@trans_74WedXVmfaHHDJItmBRTVp
+                      transformers-0.4.2.0@trans_GZTjP9K5WFq01xC9BAGQpF
+                      unix-2.7.1.0@unix_KZL8h98IqDM57kQSPo1mKx
+                      unix-compat-0.4.1.4@unixc_Km8uiabmElX5mrb8D4Fywe
+                      unix-time-0.3.6@unixt_4DXmhADld9WFju1Q636Hdx
+                      unordered-containers-0.2.7.1@unord_5iWC5HdL16JGHXLbsgBJnw
+                      uri-bytestring-0.2.1.2@uriby_BhouUrsXt2oKyqcAEmXC6H
+                      use-haskell-0.1.0.0@useha_57pAoxETiJ841Q5Bmihwh8
+                      use-haskell-api-0.1.0.0@useha_EQMZEHhgoLz1oSuP3eOP7O
+                      utf8-string-1.0.1.1@utf8s_L8eKHa7Iv9q7FVKUYW6u4b
+                      uuid-types-1.0.3@uuidt_1jYi9RR4Gf08rGU1w6xxPr
+                      vault-0.3.0.6@vault_0ZPXcEIDZ59EVFZMoaTNHZ
+                      vector-0.11.0.0@vecto_LmZ3LQW4ivu8MsQuVgukln
+                      wai-3.2.1.1@wai_HrwkV6UIvER09xy6RveHtW
+                      wai-app-static-3.1.5@waiap_AoCv13VZgjHLY4xOsNle8G
+                      wai-logger-2.2.7@wailo_EVEfGwkRGebK4pCchmfXVd
+                      warp-3.2.7@warp_4c1ReQeb0ZqAa8Lm91wXuM
+                      word8-0.1.2@word8_6yKBsGbmsbLB2UCORShr75
+                      zlib-0.6.1.1@zlib_7LjT7TSHX8U3VTy3t378Vu
+orphans: MonadRandom-0.4.2.3@Monad_I7tEJH7vOtsKQS7CpG48fz:Control.Monad.Random
+         aeson-0.11.2.0@aeson_2zFfVvgQrX6CdMgjlHENYG:Data.Aeson.Types.Generic
+         aeson-0.11.2.0@aeson_2zFfVvgQrX6CdMgjlHENYG:Data.Aeson.Types.Instances
+         attoparsec-0.13.0.2@attop_2OfdLYhETMv8S2kp3UkC68:Data.Attoparsec.ByteString.Char8
+         attoparsec-0.13.0.2@attop_2OfdLYhETMv8S2kp3UkC68:Data.Attoparsec.Text.Internal
+         base-4.8.2.0:GHC.Base base-4.8.2.0:GHC.Float
+         binary-0.7.5.0@binar_3uXFWMoAGBg0xKP9MHKRwi:Data.Binary.Generic
+         bson-generic-0.0.8@bsong_3a3Zaea0QaXDPqLlnci9WI:Data.Bson.Generic
+         bytestring-0.10.6.0@bytes_6VWy06pWzJq9evDvK2d4w6:Data.ByteString.Builder
+         hashable-1.2.4.0@hasha_EalUWgp8NarBYWPbvYAD8I:Data.Hashable.Generic
+         http-client-0.4.31@httpc_4uXZnEpdNPl3RoPM6EakgM:Network.HTTP.Client.Request
+         mongoDB-2.0.10@mongo_EARhIiqyHKK62J4lNzTFzz:Database.MongoDB.Internal.Util
+         network-2.6.2.1@netwo_A6pE0dLgMEk2GtUa1JtTJQ:Network.Socket
+         network-2.6.2.1@netwo_A6pE0dLgMEk2GtUa1JtTJQ:Network.Socket.Types
+         stm-2.4.4.1@stm_EyxFXFfnfY05IrjGaqCxeD:Control.Monad.STM
+         text-1.2.2.1@text_HmqVQnZSpjaC156ABqPhne:Data.Text
+         text-1.2.2.1@text_HmqVQnZSpjaC156ABqPhne:Data.Text.Lazy
+         text-1.2.2.1@text_HmqVQnZSpjaC156ABqPhne:Data.Text.Show
+         time-1.5.0.1@time_FTheb6LSxyX1UABIbBXRfn:Data.Time.Calendar.Gregorian
+         time-1.5.0.1@time_FTheb6LSxyX1UABIbBXRfn:Data.Time.Format.Parse
+         time-1.5.0.1@time_FTheb6LSxyX1UABIbBXRfn:Data.Time.LocalTime.LocalTime
+         transformers-0.4.2.0@trans_GZTjP9K5WFq01xC9BAGQpF:Control.Monad.Trans.Error
+         unix-time-0.3.6@unixt_4DXmhADld9WFju1Q636Hdx:Data.UnixTime.Diff
+         use-haskell-api-0.1.0.0@useha_EQMZEHhgoLz1oSuP3eOP7O:UseHaskellAPI
+         vector-0.11.0.0@vecto_LmZ3LQW4ivu8MsQuVgukln:Data.Vector.Fusion.Bundle
+         vector-0.11.0.0@vecto_LmZ3LQW4ivu8MsQuVgukln:Data.Vector.Unboxed
+family instance modules: attoparsec-0.13.0.2@attop_2OfdLYhETMv8S2kp3UkC68:Data.Attoparsec.Internal.Types
+                         base-4.8.2.0:Control.Applicative base-4.8.2.0:Data.Either
+                         base-4.8.2.0:Data.Functor.Identity base-4.8.2.0:Data.Monoid
+                         base-4.8.2.0:Data.Type.Equality base-4.8.2.0:Data.Void
+                         base-4.8.2.0:GHC.Exts base-4.8.2.0:GHC.Generics
+                         base-4.8.2.0:GHC.TypeLits
+                         bson-generic-0.0.8@bsong_3a3Zaea0QaXDPqLlnci9WI:Data.Bson.Generic
+                         containers-0.5.6.2@conta_2C3ZI8RgPO2LBMidXKTvIU:Data.IntMap.Base
+                         containers-0.5.6.2@conta_2C3ZI8RgPO2LBMidXKTvIU:Data.IntSet.Base
+                         containers-0.5.6.2@conta_2C3ZI8RgPO2LBMidXKTvIU:Data.Map.Base
+                         containers-0.5.6.2@conta_2C3ZI8RgPO2LBMidXKTvIU:Data.Sequence
+                         containers-0.5.6.2@conta_2C3ZI8RgPO2LBMidXKTvIU:Data.Set.Base
+                         dlist-0.7.1.2@dlist_AO7XAasbAeyL0XLKeq1Aui:Data.DList
+                         http-api-data-0.3.2@httpa_LOrkt5AK2M71W85ymF2ZZf:Web.Internal.FormUrlEncoded
+                         http-client-0.4.31@httpc_4uXZnEpdNPl3RoPM6EakgM:Network.HTTP.Client
+                         iproute-1.7.0@iprou_51qGM7UdLbAGjwdVd1zynT:Data.IP.Addr
+                         iproute-1.7.0@iprou_51qGM7UdLbAGjwdVd1zynT:Data.IP.Range
+                         monad-control-1.0.1.0@monad_7Tqv3C2ASZP4J7swGaIkqS:Control.Monad.Trans.Control
+                         network-uri-2.6.1.0@netwo_8hCRgBDYvZA6nRJCSPBXws:Network.URI
+                         pretty-1.1.2.0@prett_JItwetRppk1H5Uq3xbjDGC:Text.PrettyPrint.HughesPJ
+                         primitive-0.6.1.0@primi_EphY2c7CCxSCBKjAN0YTR3:Control.Monad.Primitive
+                         resourcet-1.1.7.4@resou_HqDlSpmGRphG5PMbskXVNU:Control.Monad.Trans.Resource.Internal
+                         semigroups-0.18.1@semig_LaeT7FLzCl4KIQUoVrPYl1:Data.List.NonEmpty
+                         semigroups-0.18.1@semig_LaeT7FLzCl4KIQUoVrPYl1:Data.Semigroup
+                         servant-server-0.9.1.1@serva_2bi8FIfekeM5vQJeulmuKw:Servant.Server.Internal
+                         servant-server-0.9.1.1@serva_2bi8FIfekeM5vQJeulmuKw:Servant.Server.Internal.BasicAuth
+                         servant-0.9.1.1@serva_304st92ckQoBykSibxECmC:Servant.API.ContentTypes
+                         servant-0.9.1.1@serva_304st92ckQoBykSibxECmC:Servant.API.IsSecure
+                         servant-0.9.1.1@serva_304st92ckQoBykSibxECmC:Servant.API.Verbs
+                         servant-0.9.1.1@serva_304st92ckQoBykSibxECmC:Servant.Utils.Links
+                         servant-client-0.9.1.1@serva_4JaKgVbbpBJH07tBoDembQ:Servant.Client
+                         servant-client-0.9.1.1@serva_4JaKgVbbpBJH07tBoDembQ:Servant.Common.BaseUrl
+                         servant-client-0.9.1.1@serva_4JaKgVbbpBJH07tBoDembQ:Servant.Common.Req
+                         tagged-0.8.4@tagge_LPeicl3HxVfGUMMwMEsAE6:Data.Tagged
+                         template-haskell-2.10.0.0:Language.Haskell.TH.Syntax
+                         text-1.2.2.1@text_HmqVQnZSpjaC156ABqPhne:Data.Text
+                         text-1.2.2.1@text_HmqVQnZSpjaC156ABqPhne:Data.Text.Lazy
+                         unordered-containers-0.2.7.1@unord_5iWC5HdL16JGHXLbsgBJnw:Data.HashMap.Base
+                         unordered-containers-0.2.7.1@unord_5iWC5HdL16JGHXLbsgBJnw:Data.HashSet
+                         uri-bytestring-0.2.1.2@uriby_BhouUrsXt2oKyqcAEmXC6H:URI.ByteString.Types
+                         use-haskell-0.1.0.0@useha_57pAoxETiJ841Q5Bmihwh8:RestClient
+                         use-haskell-api-0.1.0.0@useha_EQMZEHhgoLz1oSuP3eOP7O:UseHaskellAPI
+                         uuid-types-1.0.3@uuidt_1jYi9RR4Gf08rGU1w6xxPr:Data.UUID.Types.Internal
+                         uuid-types-1.0.3@uuidt_1jYi9RR4Gf08rGU1w6xxPr:Data.UUID.Types.Internal.Builder
+                         vector-0.11.0.0@vecto_LmZ3LQW4ivu8MsQuVgukln:Data.Vector
+                         vector-0.11.0.0@vecto_LmZ3LQW4ivu8MsQuVgukln:Data.Vector.Primitive
+                         vector-0.11.0.0@vecto_LmZ3LQW4ivu8MsQuVgukln:Data.Vector.Storable
+                         vector-0.11.0.0@vecto_LmZ3LQW4ivu8MsQuVgukln:Data.Vector.Unboxed
+                         vector-0.11.0.0@vecto_LmZ3LQW4ivu8MsQuVgukln:Data.Vector.Unboxed.Base
+                         zlib-0.6.1.1@zlib_7LjT7TSHX8U3VTy3t378Vu:Codec.Compression.Zlib.Stream
+import  -/  base-4.8.2.0:Prelude 694dcaf039efe62df1c44834e2dbd2fb
+import  -/  ghc-prim-0.4.0.0:GHC.Types 6b27fb3fdbd0e3f0925a4496c66513bb
+import  -/  use-haskell-0.1.0.0@useha_57pAoxETiJ841Q5Bmihwh8:MyLib 9af8ae3bbfb74b47f047f9dae9aa2134
+2bf799b7e0a8ec23331e4424eadda167
+  main :: GHC.Types.IO ()
+  {- Arity: 1, Strictness: <L,U>,
+     Unfolding: InlineRule (0, True, True)
+                MyLib.startApp1 `cast` (Sym (GHC.Types.NTCo:IO[0] <()>_R)) -}
+c53da6270acd7176da7f3c8cc42066e0
+  main1 ::
+    GHC.Prim.State# GHC.Prim.RealWorld
+    -> (# GHC.Prim.State# GHC.Prim.RealWorld, () #)
+  {- Arity: 1,
+     Unfolding: (GHC.TopHandler.runMainIO1
+                   @ ()
+                   MyLib.startApp1 `cast` (Sym (GHC.Types.NTCo:IO[0] <()>_R))) -}
+vectorised variables:
+vectorised tycons:
+vectorised reused tycons:
+parallel variables:
+parallel tycons:
+trusted: none
+require own pkg trusted: False
+

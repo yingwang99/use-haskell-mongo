@@ -1,0 +1,14 @@
+2016-12-09T20:54:39498720000000+0000 Searching for value for key: hello
+2016-12-09T20:54:39499297000000+0000 Environment variable: MONGODB_IP is not set. Defaulting to "127.0.0.1"
+2016-12-09T20:54:39499748000000+0000 Environment variable: MONGODB_DATABASE is not set. Defaulting to "MESSAGE_RECORD"
+2016-12-09T20:54:39509899000000+0000 Searching for value for key: cassie
+2016-12-09T20:54:39510452000000+0000 Environment variable: MONGODB_IP is not set. Defaulting to "127.0.0.1"
+2016-12-09T20:54:39510813000000+0000 Environment variable: MONGODB_DATABASE is not set. Defaulting to "MESSAGE_RECORD"
+
+GET /searchMessage?name=hello
+  responds with searchMessage
+GET /searchMessage?name=cassie
+  responds with searchMessage
+
+Finished in 0.0175 seconds
+2 examples, 0 failures

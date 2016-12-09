@@ -1,0 +1,826 @@
+
+==================== FINAL INTERFACE ====================
+2016-12-09 20:54:35.151755 UTC
+
+interface main@main:Main 7103
+  interface hash: dac5ce8cbfa0971a246f67c0c5c49e56
+  ABI hash: 8520ae07a9c5503d06f29d8fd6cc7cc5
+  export-list hash: e5a7caca53c801197937a46e25bf4f0e
+  orphan hash: 693e9af84d3dfcc71e640e005bdc5e2e
+  flag hash: fdc396333eba8537de90a9222b5767c9
+  sig of: Nothing
+  used TH splices: False
+  where
+exports:
+  Main.main
+  Main.spec
+module dependencies:
+package dependencies: HUnit-1.3.1.1@HUnit_7IPmJa5HmrxHl6ny5upchm
+                      MonadRandom-0.4.2.3@Monad_I7tEJH7vOtsKQS7CpG48fz
+                      QuickCheck-2.8.2@Quick_6TxL5Cx3o2p0HsyT59KWiD
+                      aeson-0.11.2.0@aeson_2zFfVvgQrX6CdMgjlHENYG
+                      ansi-terminal-0.6.2.3@ansit_BDlVdfJGo3VHCIHxPTNjH1
+                      appar-0.1.4@appar_0ov5bpGH3STIB4U7WU8MFi
+                      array-0.5.1.0@array_67iodizgJQIIxYVTp4emlA
+                      async-2.1.0@async_KuqnF1GrhHK5nNp6Zzm3jy
+                      attoparsec-0.13.0.2@attop_2OfdLYhETMv8S2kp3UkC68
+                      auto-update-0.1.4@autou_Fnqbq5K41573zil7J3s62I base-4.8.2.0
+                      base16-bytestring-0.1.1.6@base1_LuxBhYgEONMHJnKTOPc7Oy
+                      base64-bytestring-1.0.0.1@base6_AkCk8zInckjJsyQ4AIFHPN
+                      base-compat-0.9.1@basec_3Zy8UsyHmBEEwbReR8x1KT
+                      binary-0.7.5.0@binar_3uXFWMoAGBg0xKP9MHKRwi
+                      blaze-html-0.8.1.1@blaze_1fCoF4onMJE2jDLBViwynk
+                      blaze-builder-0.4.0.2@blaze_5LQurmvTy7l9rPlWgPlNE4
+                      blaze-markup-0.7.0.3@blaze_JGtgJgx8yqB3DdKuU3sbgD
+                      bson-0.3.2.2@bson_42N0i6B0YXjKVugG9lg9RI
+                      bson-generic-0.0.8@bsong_3a3Zaea0QaXDPqLlnci9WI
+                      byteable-0.1.1@bytea_38yjJsjDRm9KusCn8Yo4aB
+                      byteorder-1.0.4@byteo_6yQGE3rJo3bBqr3CFoBQ27
+                      bytestring-0.10.6.0@bytes_6VWy06pWzJq9evDvK2d4w6
+                      case-insensitive-1.2.0.6@casei_8qjMvUrztuXBu8a9xaKGpv
+                      cipher-aes-0.2.11@ciphe_LCbQiUgBdfG1swKGFESvIB
+                      containers-0.5.6.2@conta_2C3ZI8RgPO2LBMidXKTvIU
+                      cookie-0.4.2.1@cooki_K5cXuTHwzBb4lSJpuZqTwh
+                      cprng-aes-0.6.1@cprng_5f9sEWw2KyDFuK7YSXbmLg
+                      cryptohash-0.11.9@crypt_0sr828POwQIECBy4l12T91
+                      crypto-cipher-types-0.0.9@crypt_5pOb6r7GjTIIAX2STwtBXT
+                      cryptonite-0.15@crypt_F8W9M5THBW4FIZAr1UOHUh
+                      crypto-random-0.0.9@crypt_Hp2mrapNVMVGQkdcUyO52d
+                      data-binary-ieee754-0.4.4@datab_LscVfvSYUChE22ECWWHc4v
+                      data-default-class-0.0.1@datad_K91y8NcZUJI9yaBI61rgdD
+                      deepseq-1.4.1.1@deeps_6vMKxt5sPFR0XsbRWvvq59
+                      directory-1.2.2.0@direc_0hFG6ZxK1nk4zsyOqbNHfm
+                      dlist-0.7.1.2@dlist_AO7XAasbAeyL0XLKeq1Aui
+                      easy-file-0.2.1@easyf_IjQ6MMskJyDEpOwcfCdF0G
+                      exceptions-0.8.2.1@excep_6lgwjdgwblY7rzh5s6SLd8
+                      fail-4.9.0.0@fail_2xB1AvdW34sDm9N3JOe33G
+                      fast-logger-2.4.6@fastl_KNzHEmV4CAC3sAdPGCavvx
+                      file-embed-0.0.10@filee_BNyHeBYneTRAp0kIbc1T1P
+                      filepath-1.4.0.0@filep_Ey7a1in9roBAE8bUFJ5R9m ghc-prim-0.4.0.0
+                      hashable-1.2.4.0@hasha_EalUWgp8NarBYWPbvYAD8I
+                      hashtables-1.2.1.0@hasht_5Vb6phNxUZg6pFkCi63Q8S
+                      hslogger-1.2.10@hslog_7S2R9oN6Jiq9ujVQkRIVGN
+                      hspec-core-2.2.3@hspec_7V7Lj80zZjAGvJGtpazzP2
+                      hspec-2.2.3@hspec_CYWZadvwAraHdF11VslegI
+                      hspec-expectations-0.7.2@hspec_EI4zRR5iBcZEoRZjsgGwGV
+                      hspec-wai-0.6.6@hspec_KyB8TUQ4e8g0h9X5DeThtT
+                      http2-1.6.1@http2_2nSEa9VvD6m8evIu1BeoFl
+                      http-api-data-0.3.2@httpa_LOrkt5AK2M71W85ymF2ZZf
+                      http-client-0.4.31@httpc_4uXZnEpdNPl3RoPM6EakgM
+                      http-date-0.0.6.1@httpd_CoX3D3DRXeFLFjrVKUR3Hm
+                      http-media-0.6.3@httpm_3g9mqGckpf20fD6vCHR6Aw
+                      http-types-0.9.1@httpt_8knqKGsck6rCwAgIqjaOSd integer-gmp-1.0.0.0
+                      iproute-1.7.0@iprou_51qGM7UdLbAGjwdVd1zynT
+                      lifted-base-0.2.3.6@lifte_DoOvgrTvmEtENHs0ypaZTR
+                      memory-0.13@memor_AtLbf837cOS9kNhIuRhbe8
+                      mime-types-0.1.0.7@mimet_EkzgPOw2pX43Kgu0zxtOKD
+                      mmorph-1.0.6@mmorp_42KUkOfzC6q3qCtAMiSHam
+                      monad-control-1.0.1.0@monad_7Tqv3C2ASZP4J7swGaIkqS
+                      mongoDB-2.0.10@mongo_EARhIiqyHKK62J4lNzTFzz
+                      mtl-2.2.1@mtl_Aue4leSeVkpKLsfHIV51E8
+                      network-uri-2.6.1.0@netwo_8hCRgBDYvZA6nRJCSPBXws
+                      network-2.6.2.1@netwo_A6pE0dLgMEk2GtUa1JtTJQ
+                      nonce-1.0.2@nonce_LVZ3LgyElrS1925qK5wiEt
+                      old-locale-1.0.0.7@oldlo_7h2Gx6mVPJ5Gheca8j9Mpe
+                      old-time-1.1.0.3@oldti_JVjJvknZJ0JKghfag2Jw2L
+                      parsec-3.1.11@parse_AtBt9uDOS2NCyWnucTHV3y
+                      pretty-1.1.2.0@prett_JItwetRppk1H5Uq3xbjDGC
+                      primitive-0.6.1.0@primi_EphY2c7CCxSCBKjAN0YTR3
+                      psqueues-0.2.2.1@psque_AvLcbKUIB1yCm8wZoS0YR7
+                      quickcheck-io-0.1.2@quick_LD9sRWzT6ud3PkzWg8XauD
+                      random-1.1@rando_9Kgekc9yEaLHLNUuw6paWL
+                      random-shuffle-0.0.4@rando_9kOz9tEn1526ShtWz8x59X
+                      resourcet-1.1.7.4@resou_HqDlSpmGRphG5PMbskXVNU
+                      safe-0.3.9@safe_Eus5OohxO2XHvdWxKAmhFS
+                      scientific-0.3.4.8@scien_Elq5IFN7LP733k4M8RTP7H
+                      securemem-0.1.9@secur_G6dZ7LcBMCWL87x7vQA9FR
+                      semigroups-0.18.1@semig_LaeT7FLzCl4KIQUoVrPYl1
+                      servant-server-0.9.1.1@serva_2bi8FIfekeM5vQJeulmuKw
+                      servant-0.9.1.1@serva_304st92ckQoBykSibxECmC
+                      servant-client-0.9.1.1@serva_4JaKgVbbpBJH07tBoDembQ
+                      setenv-0.1.1.3@seten_6IUqFDI6NejGrNz9ulqEjc
+                      simple-sendfile-0.2.25@simpl_0nIJen9GQpYKeQtRTgNteJ
+                      stm-2.4.4.1@stm_EyxFXFfnfY05IrjGaqCxeD
+                      streaming-commons-0.1.15.5@strea_EmmPiWycOZRDBDTh9xaABj
+                      string-conversions-0.4@strin_JslXiDngwin4HR9nIe3KgC
+                      tagged-0.8.4@tagge_LPeicl3HxVfGUMMwMEsAE6 template-haskell-2.10.0.0
+                      text-1.2.2.1@text_HmqVQnZSpjaC156ABqPhne
+                      tf-random-0.5@tfran_1eLmkn3WUnC8NZpPuDLGKF
+                      time-1.5.0.1@time_FTheb6LSxyX1UABIbBXRfn
+                      time-locale-compat-0.1.1.3@timel_JqBSqBpv4WnGcW1nkQYzOp
+                      transformers-base-0.4.4@trans_74WedXVmfaHHDJItmBRTVp
+                      transformers-0.4.2.0@trans_GZTjP9K5WFq01xC9BAGQpF
+                      unix-2.7.1.0@unix_KZL8h98IqDM57kQSPo1mKx
+                      unix-compat-0.4.1.4@unixc_Km8uiabmElX5mrb8D4Fywe
+                      unix-time-0.3.6@unixt_4DXmhADld9WFju1Q636Hdx
+                      unordered-containers-0.2.7.1@unord_5iWC5HdL16JGHXLbsgBJnw
+                      uri-bytestring-0.2.1.2@uriby_BhouUrsXt2oKyqcAEmXC6H
+                      use-haskell-0.1.0.0@useha_57pAoxETiJ841Q5Bmihwh8
+                      use-haskell-api-0.1.0.0@useha_EQMZEHhgoLz1oSuP3eOP7O
+                      utf8-string-1.0.1.1@utf8s_L8eKHa7Iv9q7FVKUYW6u4b
+                      uuid-types-1.0.3@uuidt_1jYi9RR4Gf08rGU1w6xxPr
+                      vault-0.3.0.6@vault_0ZPXcEIDZ59EVFZMoaTNHZ
+                      vector-0.11.0.0@vecto_LmZ3LQW4ivu8MsQuVgukln
+                      wai-3.2.1.1@wai_HrwkV6UIvER09xy6RveHtW
+                      wai-app-static-3.1.5@waiap_AoCv13VZgjHLY4xOsNle8G
+                      wai-extra-3.0.16.1@waiex_6Di3cDB59iw6q6y4EFYAec
+                      wai-logger-2.2.7@wailo_EVEfGwkRGebK4pCchmfXVd
+                      warp-3.2.7@warp_4c1ReQeb0ZqAa8Lm91wXuM
+                      with-location-0.1.0@withl_1UvPvhj59tH9y96pbQ96NE
+                      word8-0.1.2@word8_6yKBsGbmsbLB2UCORShr75
+                      zlib-0.6.1.1@zlib_7LjT7TSHX8U3VTy3t378Vu
+orphans: MonadRandom-0.4.2.3@Monad_I7tEJH7vOtsKQS7CpG48fz:Control.Monad.Random
+         aeson-0.11.2.0@aeson_2zFfVvgQrX6CdMgjlHENYG:Data.Aeson.Types.Generic
+         aeson-0.11.2.0@aeson_2zFfVvgQrX6CdMgjlHENYG:Data.Aeson.Types.Instances
+         attoparsec-0.13.0.2@attop_2OfdLYhETMv8S2kp3UkC68:Data.Attoparsec.ByteString.Char8
+         attoparsec-0.13.0.2@attop_2OfdLYhETMv8S2kp3UkC68:Data.Attoparsec.Text.Internal
+         base-4.8.2.0:GHC.Base base-4.8.2.0:GHC.Float
+         binary-0.7.5.0@binar_3uXFWMoAGBg0xKP9MHKRwi:Data.Binary.Generic
+         bson-generic-0.0.8@bsong_3a3Zaea0QaXDPqLlnci9WI:Data.Bson.Generic
+         bytestring-0.10.6.0@bytes_6VWy06pWzJq9evDvK2d4w6:Data.ByteString.Builder
+         hashable-1.2.4.0@hasha_EalUWgp8NarBYWPbvYAD8I:Data.Hashable.Generic
+         http-client-0.4.31@httpc_4uXZnEpdNPl3RoPM6EakgM:Network.HTTP.Client.Request
+         mongoDB-2.0.10@mongo_EARhIiqyHKK62J4lNzTFzz:Database.MongoDB.Internal.Util
+         network-2.6.2.1@netwo_A6pE0dLgMEk2GtUa1JtTJQ:Network.Socket
+         network-2.6.2.1@netwo_A6pE0dLgMEk2GtUa1JtTJQ:Network.Socket.Types
+         quickcheck-io-0.1.2@quick_LD9sRWzT6ud3PkzWg8XauD:Test.QuickCheck.IO
+         stm-2.4.4.1@stm_EyxFXFfnfY05IrjGaqCxeD:Control.Monad.STM
+         text-1.2.2.1@text_HmqVQnZSpjaC156ABqPhne:Data.Text
+         text-1.2.2.1@text_HmqVQnZSpjaC156ABqPhne:Data.Text.Lazy
+         text-1.2.2.1@text_HmqVQnZSpjaC156ABqPhne:Data.Text.Show
+         time-1.5.0.1@time_FTheb6LSxyX1UABIbBXRfn:Data.Time.Calendar.Gregorian
+         time-1.5.0.1@time_FTheb6LSxyX1UABIbBXRfn:Data.Time.Format.Parse
+         time-1.5.0.1@time_FTheb6LSxyX1UABIbBXRfn:Data.Time.LocalTime.LocalTime
+         transformers-0.4.2.0@trans_GZTjP9K5WFq01xC9BAGQpF:Control.Monad.Trans.Error
+         unix-time-0.3.6@unixt_4DXmhADld9WFju1Q636Hdx:Data.UnixTime.Diff
+         use-haskell-api-0.1.0.0@useha_EQMZEHhgoLz1oSuP3eOP7O:UseHaskellAPI
+         vector-0.11.0.0@vecto_LmZ3LQW4ivu8MsQuVgukln:Data.Vector.Fusion.Bundle
+         vector-0.11.0.0@vecto_LmZ3LQW4ivu8MsQuVgukln:Data.Vector.Unboxed
+family instance modules: attoparsec-0.13.0.2@attop_2OfdLYhETMv8S2kp3UkC68:Data.Attoparsec.Internal.Types
+                         base-4.8.2.0:Control.Applicative base-4.8.2.0:Data.Either
+                         base-4.8.2.0:Data.Functor.Identity base-4.8.2.0:Data.Monoid
+                         base-4.8.2.0:Data.Type.Equality base-4.8.2.0:Data.Void
+                         base-4.8.2.0:GHC.Exts base-4.8.2.0:GHC.Generics
+                         base-4.8.2.0:GHC.TypeLits
+                         bson-generic-0.0.8@bsong_3a3Zaea0QaXDPqLlnci9WI:Data.Bson.Generic
+                         containers-0.5.6.2@conta_2C3ZI8RgPO2LBMidXKTvIU:Data.IntMap.Base
+                         containers-0.5.6.2@conta_2C3ZI8RgPO2LBMidXKTvIU:Data.IntSet.Base
+                         containers-0.5.6.2@conta_2C3ZI8RgPO2LBMidXKTvIU:Data.Map.Base
+                         containers-0.5.6.2@conta_2C3ZI8RgPO2LBMidXKTvIU:Data.Sequence
+                         containers-0.5.6.2@conta_2C3ZI8RgPO2LBMidXKTvIU:Data.Set.Base
+                         dlist-0.7.1.2@dlist_AO7XAasbAeyL0XLKeq1Aui:Data.DList
+                         hspec-core-2.2.3@hspec_7V7Lj80zZjAGvJGtpazzP2:Test.Hspec.Core.Example
+                         hspec-wai-0.6.6@hspec_KyB8TUQ4e8g0h9X5DeThtT:Test.Hspec.Wai.Internal
+                         http-api-data-0.3.2@httpa_LOrkt5AK2M71W85ymF2ZZf:Web.Internal.FormUrlEncoded
+                         http-client-0.4.31@httpc_4uXZnEpdNPl3RoPM6EakgM:Network.HTTP.Client
+                         iproute-1.7.0@iprou_51qGM7UdLbAGjwdVd1zynT:Data.IP.Addr
+                         iproute-1.7.0@iprou_51qGM7UdLbAGjwdVd1zynT:Data.IP.Range
+                         monad-control-1.0.1.0@monad_7Tqv3C2ASZP4J7swGaIkqS:Control.Monad.Trans.Control
+                         network-uri-2.6.1.0@netwo_8hCRgBDYvZA6nRJCSPBXws:Network.URI
+                         pretty-1.1.2.0@prett_JItwetRppk1H5Uq3xbjDGC:Text.PrettyPrint.HughesPJ
+                         primitive-0.6.1.0@primi_EphY2c7CCxSCBKjAN0YTR3:Control.Monad.Primitive
+                         resourcet-1.1.7.4@resou_HqDlSpmGRphG5PMbskXVNU:Control.Monad.Trans.Resource.Internal
+                         semigroups-0.18.1@semig_LaeT7FLzCl4KIQUoVrPYl1:Data.List.NonEmpty
+                         semigroups-0.18.1@semig_LaeT7FLzCl4KIQUoVrPYl1:Data.Semigroup
+                         servant-server-0.9.1.1@serva_2bi8FIfekeM5vQJeulmuKw:Servant.Server.Internal
+                         servant-server-0.9.1.1@serva_2bi8FIfekeM5vQJeulmuKw:Servant.Server.Internal.BasicAuth
+                         servant-0.9.1.1@serva_304st92ckQoBykSibxECmC:Servant.API.ContentTypes
+                         servant-0.9.1.1@serva_304st92ckQoBykSibxECmC:Servant.API.IsSecure
+                         servant-0.9.1.1@serva_304st92ckQoBykSibxECmC:Servant.API.Verbs
+                         servant-0.9.1.1@serva_304st92ckQoBykSibxECmC:Servant.Utils.Links
+                         servant-client-0.9.1.1@serva_4JaKgVbbpBJH07tBoDembQ:Servant.Client
+                         servant-client-0.9.1.1@serva_4JaKgVbbpBJH07tBoDembQ:Servant.Common.BaseUrl
+                         servant-client-0.9.1.1@serva_4JaKgVbbpBJH07tBoDembQ:Servant.Common.Req
+                         tagged-0.8.4@tagge_LPeicl3HxVfGUMMwMEsAE6:Data.Tagged
+                         template-haskell-2.10.0.0:Language.Haskell.TH.Syntax
+                         text-1.2.2.1@text_HmqVQnZSpjaC156ABqPhne:Data.Text
+                         text-1.2.2.1@text_HmqVQnZSpjaC156ABqPhne:Data.Text.Lazy
+                         unordered-containers-0.2.7.1@unord_5iWC5HdL16JGHXLbsgBJnw:Data.HashMap.Base
+                         unordered-containers-0.2.7.1@unord_5iWC5HdL16JGHXLbsgBJnw:Data.HashSet
+                         uri-bytestring-0.2.1.2@uriby_BhouUrsXt2oKyqcAEmXC6H:URI.ByteString.Types
+                         use-haskell-0.1.0.0@useha_57pAoxETiJ841Q5Bmihwh8:RestClient
+                         use-haskell-api-0.1.0.0@useha_EQMZEHhgoLz1oSuP3eOP7O:UseHaskellAPI
+                         uuid-types-1.0.3@uuidt_1jYi9RR4Gf08rGU1w6xxPr:Data.UUID.Types.Internal
+                         uuid-types-1.0.3@uuidt_1jYi9RR4Gf08rGU1w6xxPr:Data.UUID.Types.Internal.Builder
+                         vector-0.11.0.0@vecto_LmZ3LQW4ivu8MsQuVgukln:Data.Vector
+                         vector-0.11.0.0@vecto_LmZ3LQW4ivu8MsQuVgukln:Data.Vector.Primitive
+                         vector-0.11.0.0@vecto_LmZ3LQW4ivu8MsQuVgukln:Data.Vector.Storable
+                         vector-0.11.0.0@vecto_LmZ3LQW4ivu8MsQuVgukln:Data.Vector.Unboxed
+                         vector-0.11.0.0@vecto_LmZ3LQW4ivu8MsQuVgukln:Data.Vector.Unboxed.Base
+                         zlib-0.6.1.1@zlib_7LjT7TSHX8U3VTy3t378Vu:Codec.Compression.Zlib.Stream
+import  -/  base-4.8.2.0:GHC.Base 1db77db5dae73d8c424c85b09fbadb89
+import  -/  base-4.8.2.0:Prelude 694dcaf039efe62df1c44834e2dbd2fb
+import  -/  ghc-prim-0.4.0.0:GHC.Types 6b27fb3fdbd0e3f0925a4496c66513bb
+import  -/  hspec-core-2.2.3@hspec_7V7Lj80zZjAGvJGtpazzP2:Test.Hspec.Core.Runner 825c4cffe3fffdf04586abcd23ab29b9
+import  -/  hspec-core-2.2.3@hspec_7V7Lj80zZjAGvJGtpazzP2:Test.Hspec.Core.Spec 9fd83cec8db7488cc218872868ad81dc
+import  -/  hspec-core-2.2.3@hspec_7V7Lj80zZjAGvJGtpazzP2:Test.Hspec.Core.Spec.Monad 93f5a21f6bd0f3589ab11f1243d6bf6b
+import  -/  hspec-2.2.3@hspec_CYWZadvwAraHdF11VslegI:Test.Hspec 0bab73eef76e7fd58396f5a51036c208
+import  -/  hspec-wai-0.6.6@hspec_KyB8TUQ4e8g0h9X5DeThtT:Test.Hspec.Wai 04623542b0ee77e19afabfe617ed84e8
+import  -/  hspec-wai-0.6.6@hspec_KyB8TUQ4e8g0h9X5DeThtT:Test.Hspec.Wai.Matcher dee47586244f3518494c9542da12c809
+import  -/  use-haskell-0.1.0.0@useha_57pAoxETiJ841Q5Bmihwh8:MyLib 9af8ae3bbfb74b47f047f9dae9aa2134
+d381af2c51dd536e4fee6a62e0abcff0
+  main :: GHC.Types.IO ()
+  {- Arity: 1, Strictness: <L,U>,
+     Unfolding: InlineRule (0, True, True)
+                Main.main1 `cast` (Sym (GHC.Types.NTCo:IO[0] <()>_R)) -}
+13be545c0f05b5d625439dfe0daa5094
+  main1 ::
+    GHC.Prim.State# GHC.Prim.RealWorld
+    -> (# GHC.Prim.State# GHC.Prim.RealWorld, () #)
+  {- Arity: 1, Strictness: <L,U>,
+     Unfolding: (\ eta :: GHC.Prim.State# GHC.Prim.RealWorld[OneShot] ->
+                 case Test.Hspec.Core.Runner.hspec2
+                        Test.Hspec.Options.defaultConfig
+                        Main.main2
+                          `cast`
+                        (Trans
+                             (Sym (GHC.Types.NTCo:IO[0]
+                                       <((), [Test.Hspec.Core.Tree.SpecTree ()])>_R))
+                             (Trans
+                                  (Sym (Control.Monad.Trans.Writer.Lazy.NTCo:WriterT[0]
+                                            <[Test.Hspec.Core.Tree.SpecTree ()]>_N
+                                            <GHC.Types.IO>_R
+                                            <()>_N))
+                                  (Sym (Test.Hspec.Core.Spec.Monad.NTCo:SpecM[0] <()>_N) <()>_N)))
+                        eta of ds1 { (#,#) ipv ipv1 ->
+                 case ipv1 of wild { Test.Hspec.Core.Runner.Summary ds ds2 ->
+                 case ds2 of wild1 { GHC.Types.I# x ->
+                 case x of wild2 {
+                   DEFAULT -> System.Exit.die2 @ () ipv
+                   0 -> (# ipv, GHC.Tuple.() #) } } } }) -}
+b563d7da4eaf40e566a7fa769055194c
+  main10 :: Test.Hspec.Wai.Internal.WaiExpectation
+  {- Unfolding: (Main.main18 Main.main16 Main.main11) -}
+eb84babdb88363ed259c88ccb460e43d
+  main11 :: Test.Hspec.Wai.Matcher.ResponseMatcher
+  {- Unfolding: (Test.Hspec.Wai.Matcher.ResponseMatcher
+                   Main.main15
+                   (GHC.Types.[] @ Test.Hspec.Wai.Matcher.MatchHeader)
+                   Main.main12) -}
+627e6a737374645191b98ddea28c288d
+  main12 :: GHC.Base.Maybe Data.ByteString.Lazy.Internal.ByteString
+  {- Unfolding: (GHC.Base.Just
+                   @ Data.ByteString.Lazy.Internal.ByteString
+                   Main.main13) -}
+c49fc814c902e8e11361bbb78851ddef
+  main13 :: Data.ByteString.Lazy.Internal.ByteString
+  {- Unfolding: (case GHC.Base.map
+                        @ GHC.Types.Char
+                        @ GHC.Types.Char
+                        Data.Text.Internal.safe
+                        Main.main14 of dt { DEFAULT ->
+                 Data.Text.Lazy.Encoding.encodeUtf8
+                   (Test.Hspec.Wai.Matcher.$fIsStringResponseMatcher_outer dt) }) -}
+23f2b29242bc64c488d0f041230c961c
+  main14 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString#
+                   "[{\"name\":\"cassie\",\"message\":\"hello1\"}]"#) -}
+6088f272415f8cbf2048d0e2396df432
+  main15 :: GHC.Types.Int
+  {- HasNoCafRefs, Unfolding: (GHC.Types.I# 200) -}
+c1be6cbd733407b795e0b0dcbe080c21
+  main16 ::
+    Test.Hspec.Wai.Internal.WaiSession Network.Wai.Test.SResponse
+  {- Unfolding: (Test.Hspec.Wai.request
+                   Network.HTTP.Types.Method.methodGet
+                   Main.main17
+                   (GHC.Types.[] @ Network.HTTP.Types.Header.Header)
+                   Test.Hspec.Wai.delete1) -}
+990947530820d4e7b3d5fc6f966c786b
+  main17 :: Data.ByteString.Internal.ByteString
+  {- Unfolding: (case GHC.Prim.newMutVar#
+                        @ GHC.ForeignPtr.Finalizers
+                        @ GHC.Prim.RealWorld
+                        GHC.ForeignPtr.NoFinalizers
+                        GHC.Prim.realWorld# of ds1 { (#,#) ipv ipv1 ->
+                 let {
+                   addr# :: GHC.Prim.Addr# = "/searchMessage?name=cassie"#
+                 } in
+                 case {__pkg_ccall bytestring-0.10.6.0@bytes_6VWy06pWzJq9evDvK2d4w6 strlen GHC.Prim.Addr#
+                                                                                           -> GHC.Prim.State#
+                                                                                                GHC.Prim.RealWorld
+                                                                                           -> (# GHC.Prim.State#
+                                                                                                   GHC.Prim.RealWorld,
+                                                                                                 GHC.Prim.Word# #)}
+                        addr#
+                        ipv of wild { (#,#) ds3 ds4 ->
+                 Data.ByteString.Internal.PS
+                   addr#
+                   (GHC.ForeignPtr.PlainForeignPtr ipv1)
+                   0
+                   (GHC.Prim.word2Int# ds4) } }) -}
+151945117a49b203eecc497bc81223cb
+  main18 ::
+    Test.Hspec.Wai.Internal.WaiSession Network.Wai.Test.SResponse
+    -> Test.Hspec.Wai.Matcher.ResponseMatcher
+    -> Test.Hspec.Wai.Internal.WaiExpectation
+  {- Unfolding: (Test.Hspec.Wai.shouldRespondWith
+                   Main.main19
+                     `cast`
+                   (Sym (GHC.IP.NTCo:IP[0] <"loc">_N <GHC.Stack.CallStack>_N))) -}
+8382ddf74b4ce1138ed5ae46e2f732bb
+  main19 :: GHC.Stack.CallStack
+  {- Unfolding: (GHC.Stack.CallStack Main.main20) -}
+bd16d2c00386a5e17fedf9d0ab71dfaf
+  main2 ::
+    GHC.Prim.State# GHC.Prim.RealWorld
+    -> (# GHC.Prim.State# GHC.Prim.RealWorld,
+          ((), [Test.Hspec.Core.Tree.SpecTree ()]) #)
+  {- Arity: 1, Strictness: <L,U>,
+     Unfolding: (\ eta1 :: GHC.Prim.State#
+                             GHC.Prim.RealWorld[OneShot] ->
+                 Test.Hspec.Core.Hooks.after2
+                   @ Network.Wai.Application
+                   @ ()
+                   Main.main72
+                     `cast`
+                   (<Test.Hspec.Core.Example.ActionWith Network.Wai.Application>_R
+                    ->_R <()>_R
+                    ->_R Sym (GHC.Types.NTCo:IO[0] <()>_R))
+                   Main.main3
+                     `cast`
+                   (Trans
+                        (Sym (GHC.Types.NTCo:IO[0]
+                                  <((),
+                                    [Test.Hspec.Core.Tree.SpecTree
+                                       (Network.Wai.Internal.Request
+                                        -> (Network.Wai.Internal.Response
+                                            -> GHC.Types.IO Network.Wai.Internal.ResponseReceived)
+                                        -> GHC.Types.IO
+                                             Network.Wai.Internal.ResponseReceived)])>_R))
+                        (Trans
+                             (Sym (Control.Monad.Trans.Writer.Lazy.NTCo:WriterT[0]
+                                       <[Test.Hspec.Core.Tree.SpecTree
+                                           (Network.Wai.Internal.Request
+                                            -> (Network.Wai.Internal.Response
+                                                -> GHC.Types.IO
+                                                     Network.Wai.Internal.ResponseReceived)
+                                            -> GHC.Types.IO
+                                                 Network.Wai.Internal.ResponseReceived)]>_N
+                                       <GHC.Types.IO>_R
+                                       <()>_N))
+                             (Sym (Test.Hspec.Core.Spec.Monad.NTCo:SpecM[0]
+                                       <Network.Wai.Internal.Request
+                                        -> (Network.Wai.Internal.Response
+                                            -> GHC.Types.IO Network.Wai.Internal.ResponseReceived)
+                                        -> GHC.Types.IO
+                                             Network.Wai.Internal.ResponseReceived>_N) <()>_N)))
+                   eta1) -}
+a0fa8901ec2004d44e934f3ad43addee
+  main20 :: [([GHC.Types.Char], GHC.SrcLoc.SrcLoc)]
+  {- Unfolding: (GHC.Types.:
+                   @ ([GHC.Types.Char], GHC.SrcLoc.SrcLoc)
+                   Main.main21
+                   (GHC.Types.[] @ ([GHC.Types.Char], GHC.SrcLoc.SrcLoc))) -}
+06e7998923dd5172d73e62de13b106fe
+  main21 :: ([GHC.Types.Char], GHC.SrcLoc.SrcLoc)
+  {- Unfolding: ((Main.main29, Main.main22)) -}
+8be97b5d27821b58841d095cbdab3379
+  main22 :: GHC.SrcLoc.SrcLoc
+  {- Unfolding: (GHC.SrcLoc.SrcLoc
+                   Main.main28
+                   Main.main27
+                   Main.main26
+                   Main.main25
+                   Main.main24
+                   Main.main25
+                   Main.main23) -}
+365c79db872bcccc47fdb51119483046
+  main23 :: GHC.Types.Int
+  {- HasNoCafRefs, Unfolding: (GHC.Types.I# 61) -}
+5bcb94251207b1e9c70e13c7a006c458
+  main24 :: GHC.Types.Int
+  {- HasNoCafRefs, Unfolding: (GHC.Types.I# 42) -}
+b916822ce7cb6630c8c7686e8428a157
+  main25 :: GHC.Types.Int
+  {- HasNoCafRefs, Unfolding: (GHC.Types.I# 27) -}
+9a24415c2accf8a950e734dcd5314c79
+  main26 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "test/Main.hs"#) -}
+61bd4f99fd00ca2ee2030d166abd5f4e
+  main27 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "Main"#) -}
+062e0214440717bfe8cefcdd61a1f03c
+  main28 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "main"#) -}
+78486ed5ae320f79be47043050f938d3
+  main29 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "shouldRespondWith"#) -}
+8a5ab1a2f684042910fc247cfdd21bf0
+  main3 ::
+    GHC.Prim.State# GHC.Prim.RealWorld
+    -> (# GHC.Prim.State# GHC.Prim.RealWorld,
+          ((),
+           [Test.Hspec.Core.Tree.SpecTree
+              (Network.Wai.Internal.Request
+               -> (Network.Wai.Internal.Response
+                   -> GHC.Types.IO Network.Wai.Internal.ResponseReceived)
+               -> GHC.Types.IO Network.Wai.Internal.ResponseReceived)]) #)
+  {- Arity: 1,
+     Unfolding: (\ s :: GHC.Prim.State# GHC.Prim.RealWorld[OneShot] ->
+                 (# s, Main.main4 #)) -}
+66ac368f2043c6630fc1c25944d93827
+  main30 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString#
+                   "responds with searchMessage"#) -}
+7c6e055b65a808589bcbc14cded38d00
+  main31 ::
+    GHC.Base.String
+    -> Test.Hspec.Wai.Internal.WaiExpectation
+    -> Test.Hspec.Core.Tree.SpecTree
+         (Test.Hspec.Core.Example.Arg
+            Test.Hspec.Wai.Internal.WaiExpectation)
+  {- Unfolding: (Test.Hspec.Core.Tree.specItem
+                   @ Test.Hspec.Wai.Internal.WaiExpectation
+                   Main.main32
+                     `cast`
+                   (Sym (GHC.IP.NTCo:IP[0] <"loc">_N <GHC.Stack.CallStack>_N))
+                   Test.Hspec.Wai.Internal.$fExampleWaiSession_$cevaluateExample
+                     `cast`
+                   (Sym (Test.Hspec.Core.Example.NTCo:Example[0]
+                             <Test.Hspec.Wai.Internal.WaiExpectation>_N))) -}
+ff2657b9cd89886963359f567ebe68a0
+  main32 :: GHC.Stack.CallStack
+  {- Unfolding: (GHC.Stack.CallStack Main.main33) -}
+8926e833e5301c49f80ffccaa8c102f0
+  main33 :: [([GHC.Types.Char], GHC.SrcLoc.SrcLoc)]
+  {- Unfolding: (GHC.Types.:
+                   @ ([GHC.Types.Char], GHC.SrcLoc.SrcLoc)
+                   Test.Hspec.Core.Spec.it2
+                   Main.main34) -}
+daa1b08025a2a8013e416abddea8fcb9
+  main34 :: [([GHC.Types.Char], GHC.SrcLoc.SrcLoc)]
+  {- Unfolding: (GHC.Types.:
+                   @ ([GHC.Types.Char], GHC.SrcLoc.SrcLoc)
+                   Main.main35
+                   (GHC.Types.[] @ ([GHC.Types.Char], GHC.SrcLoc.SrcLoc))) -}
+5610eda6c30725e9e6d3dbbc9767da99
+  main35 :: ([GHC.Types.Char], GHC.SrcLoc.SrcLoc)
+  {- Unfolding: ((Main.main40, Main.main36)) -}
+903ae3aa00dac55f6fb94fe9e0181ddc
+  main36 :: GHC.SrcLoc.SrcLoc
+  {- Unfolding: (GHC.SrcLoc.SrcLoc
+                   Main.main28
+                   Main.main27
+                   Main.main26
+                   Main.main39
+                   Main.main38
+                   Main.main39
+                   Main.main37) -}
+9940c37199dc78c0f2dea4961d54b3d3
+  main37 :: GHC.Types.Int
+  {- HasNoCafRefs, Unfolding: (GHC.Types.I# 9) -}
+d01762b589b3d7fb5898e9be96deff61
+  main38 :: GHC.Types.Int
+  {- HasNoCafRefs, Unfolding: (GHC.Types.I# 7) -}
+5058bdb3e05bb82fd4a0a6f9c298b3af
+  main39 :: GHC.Types.Int
+  {- HasNoCafRefs, Unfolding: (GHC.Types.I# 26) -}
+4e49de998c7b095850dd87eadf714c13
+  main4 ::
+    ((),
+     [Test.Hspec.Core.Tree.SpecTree
+        (Network.Wai.Internal.Request
+         -> (Network.Wai.Internal.Response
+             -> GHC.Types.IO Network.Wai.Internal.ResponseReceived)
+         -> GHC.Types.IO Network.Wai.Internal.ResponseReceived)])
+  {- Unfolding: ((GHC.Tuple.(), Main.main5)) -}
+d39032040ac6c5b95fed8bc4fbd1d6e6
+  main40 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "it"#) -}
+4ee1dc6667a682a0060d92a7c9b678eb
+  main41 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.Types.:
+                   @ GHC.Types.Char
+                   Main.main43
+                   Main.main42) -}
+4e187f6e4bcd6208b7726d49d0ec4991
+  main42 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString#
+                   "ET /searchMessage?name=cassie"#) -}
+5586dfe0048ad1a29c474c643711e344
+  main43 :: GHC.Types.Char
+  {- HasNoCafRefs, Unfolding: (GHC.Types.C# 'G') -}
+e63a9613ca23654fe76b7c74db9ec96e
+  main44 ::
+    [Test.Hspec.Core.Tree.Tree
+       (Test.Hspec.Core.Example.ActionWith Network.Wai.Application)
+       (Test.Hspec.Core.Tree.Item Network.Wai.Application)]
+  {- Unfolding: (GHC.Types.:
+                   @ (Test.Hspec.Core.Tree.Tree
+                        (Test.Hspec.Core.Example.ActionWith Network.Wai.Application)
+                        (Test.Hspec.Core.Tree.Item Network.Wai.Application))
+                   Main.main45
+                   (GHC.Types.[]
+                      @ (Test.Hspec.Core.Tree.Tree
+                           (Test.Hspec.Core.Example.ActionWith Network.Wai.Application)
+                           (Test.Hspec.Core.Tree.Item Network.Wai.Application)))) -}
+1b87ed4404e19ac5af56b48fca025496
+  main45 ::
+    Test.Hspec.Core.Tree.Tree
+      (Test.Hspec.Core.Example.ActionWith Network.Wai.Application)
+      (Test.Hspec.Core.Tree.Item Network.Wai.Application)
+  {- Unfolding: (Test.Hspec.Core.Tree.Node
+                   @ (Test.Hspec.Core.Example.ActionWith Network.Wai.Application)
+                   @ (Test.Hspec.Core.Tree.Item Network.Wai.Application)
+                   Main.main70
+                   Main.main46
+                     `cast`
+                   ([(Test.Hspec.Core.Tree.Tree
+                        (Sub (Test.Hspec.Wai.Internal.TFCo:R:ArgWaiSession[0])
+                         ->_R <GHC.Types.IO ()>_R)
+                        (Test.Hspec.Core.Tree.Item
+                           (Sub (Test.Hspec.Wai.Internal.TFCo:R:ArgWaiSession[0])))_R)_R])_R) -}
+aafb3983b18899a76fe153f1cf3facc7
+  main46 ::
+    [Test.Hspec.Core.Tree.SpecTree
+       (Test.Hspec.Core.Example.Arg
+          Test.Hspec.Wai.Internal.WaiExpectation)]
+  {- Unfolding: (GHC.Types.:
+                   @ (Test.Hspec.Core.Tree.SpecTree
+                        (Test.Hspec.Core.Example.Arg
+                           Test.Hspec.Wai.Internal.WaiExpectation))
+                   Main.main47
+                   (GHC.Types.[]
+                      @ (Test.Hspec.Core.Tree.SpecTree
+                           (Test.Hspec.Core.Example.Arg
+                              Test.Hspec.Wai.Internal.WaiExpectation)))) -}
+d2484150bd726888440e2502067c0511
+  main47 ::
+    Test.Hspec.Core.Tree.SpecTree
+      (Test.Hspec.Core.Example.Arg
+         Test.Hspec.Wai.Internal.WaiExpectation)
+  {- Unfolding: (Main.main63 Main.main30 Main.main48) -}
+f1fe69c1175022292c34191da9db0170
+  main48 :: Test.Hspec.Wai.Internal.WaiExpectation
+  {- Unfolding: (Main.main55 Main.main53 Main.main49) -}
+ceb5b59610ccb5eed31ecfbf2557a60c
+  main49 :: Test.Hspec.Wai.Matcher.ResponseMatcher
+  {- Unfolding: (Test.Hspec.Wai.Matcher.ResponseMatcher
+                   Main.main15
+                   (GHC.Types.[] @ Test.Hspec.Wai.Matcher.MatchHeader)
+                   Main.main50) -}
+f84d3daa66bc1479f754027b72bf38af
+  main5 ::
+    [Test.Hspec.Core.Tree.Tree
+       (Test.Hspec.Core.Example.ActionWith
+          (Network.Wai.Internal.Request
+           -> (Network.Wai.Internal.Response
+               -> GHC.Types.IO Network.Wai.Internal.ResponseReceived)
+           -> GHC.Types.IO Network.Wai.Internal.ResponseReceived))
+       (Test.Hspec.Core.Tree.Item
+          (Network.Wai.Internal.Request
+           -> (Network.Wai.Internal.Response
+               -> GHC.Types.IO Network.Wai.Internal.ResponseReceived)
+           -> GHC.Types.IO Network.Wai.Internal.ResponseReceived))]
+  {- Unfolding: (GHC.Base.++
+                   @ (Test.Hspec.Core.Tree.Tree
+                        (Test.Hspec.Core.Example.ActionWith
+                           (Network.Wai.Internal.Request
+                            -> (Network.Wai.Internal.Response
+                                -> GHC.Types.IO Network.Wai.Internal.ResponseReceived)
+                            -> GHC.Types.IO Network.Wai.Internal.ResponseReceived))
+                        (Test.Hspec.Core.Tree.Item
+                           (Network.Wai.Internal.Request
+                            -> (Network.Wai.Internal.Response
+                                -> GHC.Types.IO Network.Wai.Internal.ResponseReceived)
+                            -> GHC.Types.IO Network.Wai.Internal.ResponseReceived)))
+                   Main.main44
+                   Main.main6) -}
+99255bf5e8f199856272dc3eccbe1301
+  main50 :: GHC.Base.Maybe Data.ByteString.Lazy.Internal.ByteString
+  {- Unfolding: (GHC.Base.Just
+                   @ Data.ByteString.Lazy.Internal.ByteString
+                   Main.main51) -}
+a7109e7766468cb32e98a712eb1a8fc1
+  main51 :: Data.ByteString.Lazy.Internal.ByteString
+  {- Unfolding: (case GHC.Base.map
+                        @ GHC.Types.Char
+                        @ GHC.Types.Char
+                        Data.Text.Internal.safe
+                        Main.main52 of dt { DEFAULT ->
+                 Data.Text.Lazy.Encoding.encodeUtf8
+                   (Test.Hspec.Wai.Matcher.$fIsStringResponseMatcher_outer dt) }) -}
+2e0a65c8cbbc9665390381616219739d
+  main52 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "[]"#) -}
+18c683999da94ba1231d5cf2b67a58a8
+  main53 ::
+    Test.Hspec.Wai.Internal.WaiSession Network.Wai.Test.SResponse
+  {- Unfolding: (Test.Hspec.Wai.request
+                   Network.HTTP.Types.Method.methodGet
+                   Main.main54
+                   (GHC.Types.[] @ Network.HTTP.Types.Header.Header)
+                   Test.Hspec.Wai.delete1) -}
+2ba2132f4fd033ff1d12999a5e4aa717
+  main54 :: Data.ByteString.Internal.ByteString
+  {- Unfolding: (case GHC.Prim.newMutVar#
+                        @ GHC.ForeignPtr.Finalizers
+                        @ GHC.Prim.RealWorld
+                        GHC.ForeignPtr.NoFinalizers
+                        GHC.Prim.realWorld# of ds1 { (#,#) ipv ipv1 ->
+                 let {
+                   addr# :: GHC.Prim.Addr# = "/searchMessage?name=hello"#
+                 } in
+                 case {__pkg_ccall bytestring-0.10.6.0@bytes_6VWy06pWzJq9evDvK2d4w6 strlen GHC.Prim.Addr#
+                                                                                           -> GHC.Prim.State#
+                                                                                                GHC.Prim.RealWorld
+                                                                                           -> (# GHC.Prim.State#
+                                                                                                   GHC.Prim.RealWorld,
+                                                                                                 GHC.Prim.Word# #)}
+                        addr#
+                        ipv of wild { (#,#) ds3 ds4 ->
+                 Data.ByteString.Internal.PS
+                   addr#
+                   (GHC.ForeignPtr.PlainForeignPtr ipv1)
+                   0
+                   (GHC.Prim.word2Int# ds4) } }) -}
+0d05daabd83d73aa740e5df9d046ec2d
+  main55 ::
+    Test.Hspec.Wai.Internal.WaiSession Network.Wai.Test.SResponse
+    -> Test.Hspec.Wai.Matcher.ResponseMatcher
+    -> Test.Hspec.Wai.Internal.WaiExpectation
+  {- Unfolding: (Test.Hspec.Wai.shouldRespondWith
+                   Main.main56
+                     `cast`
+                   (Sym (GHC.IP.NTCo:IP[0] <"loc">_N <GHC.Stack.CallStack>_N))) -}
+3522c54fb6ddd6ca2c485e1c08325701
+  main56 :: GHC.Stack.CallStack
+  {- Unfolding: (GHC.Stack.CallStack Main.main57) -}
+5afca1c6359adcc6ae277fdbe18774c5
+  main57 :: [([GHC.Types.Char], GHC.SrcLoc.SrcLoc)]
+  {- Unfolding: (GHC.Types.:
+                   @ ([GHC.Types.Char], GHC.SrcLoc.SrcLoc)
+                   Main.main58
+                   (GHC.Types.[] @ ([GHC.Types.Char], GHC.SrcLoc.SrcLoc))) -}
+266289699e260167bfaec1102ef5d22f
+  main58 :: ([GHC.Types.Char], GHC.SrcLoc.SrcLoc)
+  {- Unfolding: ((Main.main29, Main.main59)) -}
+8785a44af88fd91c9eb1e062ef652597
+  main59 :: GHC.SrcLoc.SrcLoc
+  {- Unfolding: (GHC.SrcLoc.SrcLoc
+                   Main.main28
+                   Main.main27
+                   Main.main26
+                   Main.main62
+                   Main.main61
+                   Main.main62
+                   Main.main60) -}
+52ae37c09dac1eb19d486809d88e1c52
+  main6 ::
+    [Test.Hspec.Core.Tree.Tree
+       (Test.Hspec.Core.Example.ActionWith Network.Wai.Application)
+       (Test.Hspec.Core.Tree.Item Network.Wai.Application)]
+  {- Unfolding: (GHC.Types.:
+                   @ (Test.Hspec.Core.Tree.Tree
+                        (Test.Hspec.Core.Example.ActionWith Network.Wai.Application)
+                        (Test.Hspec.Core.Tree.Item Network.Wai.Application))
+                   Main.main7
+                   (GHC.Types.[]
+                      @ (Test.Hspec.Core.Tree.Tree
+                           (Test.Hspec.Core.Example.ActionWith Network.Wai.Application)
+                           (Test.Hspec.Core.Tree.Item Network.Wai.Application)))) -}
+c6db90ef656b579eeeb064fd39bf3a40
+  main60 :: GHC.Types.Int
+  {- HasNoCafRefs, Unfolding: (GHC.Types.I# 60) -}
+893cc9be6ce6eba17efc6764618085df
+  main61 :: GHC.Types.Int
+  {- HasNoCafRefs, Unfolding: (GHC.Types.I# 41) -}
+245aad5dbcfd770837dbfabe6d0325d3
+  main62 :: GHC.Types.Int
+  {- HasNoCafRefs, Unfolding: (GHC.Types.I# 23) -}
+817171edb7ea7bb25d284709fa75b6bb
+  main63 ::
+    GHC.Base.String
+    -> Test.Hspec.Wai.Internal.WaiExpectation
+    -> Test.Hspec.Core.Tree.SpecTree
+         (Test.Hspec.Core.Example.Arg
+            Test.Hspec.Wai.Internal.WaiExpectation)
+  {- Unfolding: (Test.Hspec.Core.Tree.specItem
+                   @ Test.Hspec.Wai.Internal.WaiExpectation
+                   Main.main64
+                     `cast`
+                   (Sym (GHC.IP.NTCo:IP[0] <"loc">_N <GHC.Stack.CallStack>_N))
+                   Test.Hspec.Wai.Internal.$fExampleWaiSession_$cevaluateExample
+                     `cast`
+                   (Sym (Test.Hspec.Core.Example.NTCo:Example[0]
+                             <Test.Hspec.Wai.Internal.WaiExpectation>_N))) -}
+10e125847f29608181fc46f942f6ac0a
+  main64 :: GHC.Stack.CallStack
+  {- Unfolding: (GHC.Stack.CallStack Main.main65) -}
+b69a386554bd01d900c61db169e38e88
+  main65 :: [([GHC.Types.Char], GHC.SrcLoc.SrcLoc)]
+  {- Unfolding: (GHC.Types.:
+                   @ ([GHC.Types.Char], GHC.SrcLoc.SrcLoc)
+                   Test.Hspec.Core.Spec.it2
+                   Main.main66) -}
+c9cf65bda930613767eaf941eb0db600
+  main66 :: [([GHC.Types.Char], GHC.SrcLoc.SrcLoc)]
+  {- Unfolding: (GHC.Types.:
+                   @ ([GHC.Types.Char], GHC.SrcLoc.SrcLoc)
+                   Main.main67
+                   (GHC.Types.[] @ ([GHC.Types.Char], GHC.SrcLoc.SrcLoc))) -}
+18d3acc59fd2765418b465e1834abb7d
+  main67 :: ([GHC.Types.Char], GHC.SrcLoc.SrcLoc)
+  {- Unfolding: ((Main.main40, Main.main68)) -}
+f75c126756fd4721d71d6fa9148affc9
+  main68 :: GHC.SrcLoc.SrcLoc
+  {- Unfolding: (GHC.SrcLoc.SrcLoc
+                   Main.main28
+                   Main.main27
+                   Main.main26
+                   Main.main69
+                   Main.main38
+                   Main.main69
+                   Main.main37) -}
+61fc39a477d7eea2f16dbc491e31cbba
+  main69 :: GHC.Types.Int
+  {- HasNoCafRefs, Unfolding: (GHC.Types.I# 22) -}
+06351aff8b66da2738a295e3aa2dd336
+  main7 ::
+    Test.Hspec.Core.Tree.Tree
+      (Test.Hspec.Core.Example.ActionWith Network.Wai.Application)
+      (Test.Hspec.Core.Tree.Item Network.Wai.Application)
+  {- Unfolding: (Test.Hspec.Core.Tree.Node
+                   @ (Test.Hspec.Core.Example.ActionWith Network.Wai.Application)
+                   @ (Test.Hspec.Core.Tree.Item Network.Wai.Application)
+                   Main.main41
+                   Main.main8
+                     `cast`
+                   ([(Test.Hspec.Core.Tree.Tree
+                        (Sub (Test.Hspec.Wai.Internal.TFCo:R:ArgWaiSession[0])
+                         ->_R <GHC.Types.IO ()>_R)
+                        (Test.Hspec.Core.Tree.Item
+                           (Sub (Test.Hspec.Wai.Internal.TFCo:R:ArgWaiSession[0])))_R)_R])_R) -}
+1b1fd5ef48b9067a1088eac18a2ecac6
+  main70 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.Types.:
+                   @ GHC.Types.Char
+                   Main.main43
+                   Main.main71) -}
+bb88b4c1dba607213eed0fde93a48d9e
+  main71 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString#
+                   "ET /searchMessage?name=hello"#) -}
+db2d39ac56ea4c86d34a38b3c0a469fc
+  main72 ::
+    Test.Hspec.Core.Example.ActionWith Network.Wai.Application
+    -> ()
+    -> GHC.Prim.State# GHC.Prim.RealWorld
+    -> (# GHC.Prim.State# GHC.Prim.RealWorld, () #)
+  {- Arity: 3,
+     Unfolding: (\ e :: Test.Hspec.Core.Example.ActionWith
+                          Network.Wai.Application
+                   ds :: ()
+                   eta2 :: GHC.Prim.State# GHC.Prim.RealWorld[OneShot] ->
+                 case ds of wild { () ->
+                 (e MyLib.app) `cast` (GHC.Types.NTCo:IO[0] <()>_R) eta2 }) -}
+78ac3c0bbf4bf28a8fc6b582f4554bb7
+  main73 ::
+    GHC.Prim.State# GHC.Prim.RealWorld
+    -> (# GHC.Prim.State# GHC.Prim.RealWorld, () #)
+  {- Arity: 1,
+     Unfolding: (GHC.TopHandler.runMainIO1
+                   @ ()
+                   Main.main1 `cast` (Sym (GHC.Types.NTCo:IO[0] <()>_R))) -}
+a2351d60ffb2e5ae40f630260e9e1f8c
+  main8 ::
+    [Test.Hspec.Core.Tree.SpecTree
+       (Test.Hspec.Core.Example.Arg
+          Test.Hspec.Wai.Internal.WaiExpectation)]
+  {- Unfolding: (GHC.Types.:
+                   @ (Test.Hspec.Core.Tree.SpecTree
+                        (Test.Hspec.Core.Example.Arg
+                           Test.Hspec.Wai.Internal.WaiExpectation))
+                   Main.main9
+                   (GHC.Types.[]
+                      @ (Test.Hspec.Core.Tree.SpecTree
+                           (Test.Hspec.Core.Example.Arg
+                              Test.Hspec.Wai.Internal.WaiExpectation)))) -}
+db7c389afcc921e796485650d0775e6f
+  main9 ::
+    Test.Hspec.Core.Tree.SpecTree
+      (Test.Hspec.Core.Example.Arg
+         Test.Hspec.Wai.Internal.WaiExpectation)
+  {- Unfolding: (Main.main31 Main.main30 Main.main10) -}
+bda1cb83571e1c33a034fb1edb698b04
+  spec :: Test.Hspec.Core.Spec.Monad.Spec
+  {- Arity: 1, Strictness: <L,U>,
+     Unfolding: InlineRule (0, True, True)
+                Main.main2
+                  `cast`
+                (Trans
+                     (Sym (GHC.Types.NTCo:IO[0]
+                               <((), [Test.Hspec.Core.Tree.SpecTree ()])>_R))
+                     (Trans
+                          (Sym (Control.Monad.Trans.Writer.Lazy.NTCo:WriterT[0]
+                                    <[Test.Hspec.Core.Tree.SpecTree ()]>_N <GHC.Types.IO>_R <()>_N))
+                          (Sym (Test.Hspec.Core.Spec.Monad.NTCo:SpecM[0] <()>_N) <()>_N))) -}
+vectorised variables:
+vectorised tycons:
+vectorised reused tycons:
+parallel variables:
+parallel tycons:
+trusted: none
+require own pkg trusted: False
+
